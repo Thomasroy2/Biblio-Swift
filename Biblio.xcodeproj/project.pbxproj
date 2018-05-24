@@ -16,8 +16,8 @@
 		8B33CD8420932CF000B158B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B33CD8320932CF000B158B2 /* Assets.xcassets */; };
 		8B33CD8720932CF000B158B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B33CD8520932CF000B158B2 /* LaunchScreen.storyboard */; };
 		8B33CD912093684700B158B2 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B33CD902093684700B158B2 /* Book.swift */; };
-		8B3BBEDA20AD89A400DBC233 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3BBED920AD89A400DBC233 /* SwiftyJSON.swift */; };
 		8B3BBEDC20AEFEA400DBC233 /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3BBEDB20AEFEA400DBC233 /* DetailController.swift */; };
+		8B53F16220B6EEAF004A16AE /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B53F16120B6EEAF004A16AE /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,8 +31,8 @@
 		8B33CD8320932CF000B158B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B33CD8620932CF000B158B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B33CD902093684700B158B2 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
-		8B3BBED920AD89A400DBC233 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = "../../../../Downloads/SwiftyJSON-master/Source/SwiftyJSON.swift"; sourceTree = "<group>"; };
 		8B3BBEDB20AEFEA400DBC233 /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
+		8B53F16120B6EEAF004A16AE /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,10 +65,10 @@
 		8B33CD7B20932CF000B158B2 /* Biblio */ = {
 			isa = PBXGroup;
 			children = (
+				8B53F16120B6EEAF004A16AE /* SwiftyJSON.swift */,
 				8B24FBAD20AF2DE600000EE9 /* Info.plist */,
 				8B24FBAB20AF2DCF00000EE9 /* Venue.swift */,
 				8B24FBA920AF2DC900000EE9 /* MapViewController.swift */,
-				8B3BBED920AD89A400DBC233 /* SwiftyJSON.swift */,
 				8B33CD7C20932CF000B158B2 /* AppDelegate.swift */,
 				8B33CD7E20932CF000B158B2 /* SearchController.swift */,
 				8B33CD902093684700B158B2 /* Book.swift */,
@@ -157,8 +157,8 @@
 				8B24FBAA20AF2DC900000EE9 /* MapViewController.swift in Sources */,
 				8B33CD7F20932CF000B158B2 /* SearchController.swift in Sources */,
 				8B24FBAC20AF2DD000000EE9 /* Venue.swift in Sources */,
-				8B3BBEDA20AD89A400DBC233 /* SwiftyJSON.swift in Sources */,
 				8B3BBEDC20AEFEA400DBC233 /* DetailController.swift in Sources */,
+				8B53F16220B6EEAF004A16AE /* SwiftyJSON.swift in Sources */,
 				8B33CD7D20932CF000B158B2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
